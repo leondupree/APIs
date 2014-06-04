@@ -1,0 +1,54 @@
+html,body {
+	font:italic bold 14px/30px Arial,serif;
+	height: 100%;
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	background:#DBDEE7;
+}
+#header{
+	height: 9%;
+	background-color: #1B3042;
+}
+#nav{
+	float: left;
+	width: 24%;
+	height: 78%;
+	background-color: #39506C;
+	margin:1% 0 1% 1%;
+}
+#nav fieldset{
+	border:1px solid;
+	border-radius:5px;
+	background: #42688C;
+	border-color:#2b3A52;
+	color: #FFF;
+}
+#nav legend{
+	
+	background:none;
+}
+#nav .spatial input{
+	width: 20%;
+	height: 12px;
+}
+
+#content{
+	float: left;
+	width: 73%;
+	height: 78%;
+	margin:1%;
+}
+#footer{
+	clear: both;
+	height: 8%;
+	background-color: #304D6B;
+}
+#map-canvas {
+	width: 100%;
+	height: 50%;
+}
+#info {
+	width: 100%;
+	height: 10%;
+}

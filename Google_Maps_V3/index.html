@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<title>OOI Map</title>
+		<link rel="stylesheet" type="text/css" href="default.css">
+		<script src="http://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=drawing,"></script>
+		
+		<script type="text/javascript" src="mapObject.js"></script>	
+	</head>
+	<body>
+		<div id="header"></div>
+		
+		<div id="content">
+			<div id="map-canvas"></div>
+			<div id="table">
+				<div id="info"></div>
+			</div>
+		</div>
+		<div id="nav">
+			<form>
+				<fieldset class="spatial">
+					<legend>Spatial</legend>
+					<select>
+						<option value="Circle">Circle</option>
+						<option value="rectangular">Rectangular</option>
+					</select>
+					<br/>
+					<input type="text" name="lat" id="lat" ><label for="lat"> Lat </label>
+					<input type="text" name="lon" id="lon" value=""> <label for="lon"> Lon </label>
+					<br/>
+					<input type="text" name="dist" id="dis" value=""> <label for="lon"> km </label>
+					
+					<!-- 
+					<br/>
+					<input type="text" name="lat1" id="lat1" value="lat"> 
+					<input type="text" name="lon1" id="lon1" value="lon"> 
+					
+					<input type="text" name="lat2" id="lat2" value="lat"> 
+					<input type="text" name="lon1" id="lon2" value="lon">
+					-->
+				</fieldset>
+				<fieldset>
+					<legend>Temporal</legend>
+				</fieldset>	
+				<fieldset>
+					<legend>Boolean Expression</legend>
+				</fieldset>
+			</form>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>
